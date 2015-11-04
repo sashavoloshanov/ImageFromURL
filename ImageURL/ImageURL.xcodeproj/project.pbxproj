@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90BEC46A1BEA36EE0046064E /* ShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BEC4691BEA36EE0046064E /* ShowImageViewController.m */; };
 		90D9E8E41BEA32C8003B0665 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D9E8E31BEA32C8003B0665 /* main.m */; };
 		90D9E8E71BEA32C8003B0665 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D9E8E61BEA32C8003B0665 /* AppDelegate.m */; };
 		90D9E8EA1BEA32C8003B0665 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D9E8E91BEA32C8003B0665 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90BEC4681BEA36EE0046064E /* ShowImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowImageViewController.h; sourceTree = "<group>"; };
+		90BEC4691BEA36EE0046064E /* ShowImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowImageViewController.m; sourceTree = "<group>"; };
 		90D9E8DF1BEA32C8003B0665 /* ImageURL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageURL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D9E8E31BEA32C8003B0665 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90D9E8E51BEA32C8003B0665 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,14 +61,13 @@
 		90D9E8E11BEA32C8003B0665 /* ImageURL */ = {
 			isa = PBXGroup;
 			children = (
-				90D9E8E51BEA32C8003B0665 /* AppDelegate.h */,
-				90D9E8E61BEA32C8003B0665 /* AppDelegate.m */,
 				90D9E8E81BEA32C8003B0665 /* ViewController.h */,
 				90D9E8E91BEA32C8003B0665 /* ViewController.m */,
+				90BEC4681BEA36EE0046064E /* ShowImageViewController.h */,
+				90BEC4691BEA36EE0046064E /* ShowImageViewController.m */,
 				90D9E8EB1BEA32C8003B0665 /* Main.storyboard */,
-				90D9E8EE1BEA32C8003B0665 /* Assets.xcassets */,
-				90D9E8F01BEA32C8003B0665 /* LaunchScreen.storyboard */,
-				90D9E8F31BEA32C8003B0665 /* Info.plist */,
+				90D9E8E51BEA32C8003B0665 /* AppDelegate.h */,
+				90D9E8E61BEA32C8003B0665 /* AppDelegate.m */,
 				90D9E8E21BEA32C8003B0665 /* Supporting Files */,
 			);
 			path = ImageURL;
@@ -74,7 +76,10 @@
 		90D9E8E21BEA32C8003B0665 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				90D9E8EE1BEA32C8003B0665 /* Assets.xcassets */,
+				90D9E8F01BEA32C8003B0665 /* LaunchScreen.storyboard */,
 				90D9E8E31BEA32C8003B0665 /* main.m */,
+				90D9E8F31BEA32C8003B0665 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				90D9E8EA1BEA32C8003B0665 /* ViewController.m in Sources */,
 				90D9E8E71BEA32C8003B0665 /* AppDelegate.m in Sources */,
 				90D9E8E41BEA32C8003B0665 /* main.m in Sources */,
+				90BEC46A1BEA36EE0046064E /* ShowImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +304,7 @@
 				90D9E8F81BEA32C8003B0665 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
